@@ -13,19 +13,19 @@ import cn.geminiwen.cube.animation.CubeRightInAnimation;
 /**
  * Created by geminiwen on 15/9/24.
  */
-public class SplashLayout extends FrameLayout{
+public class CubeLayout extends FrameLayout{
 
     private BaseInterpolator mInterpolator = new AccelerateDecelerateInterpolator();
 
-    public SplashLayout(Context context) {
+    public CubeLayout(Context context) {
         this(context, null);
     }
 
-    public SplashLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CubeLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
-    public SplashLayout(Context context, AttributeSet attrs) {
+    public CubeLayout(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
